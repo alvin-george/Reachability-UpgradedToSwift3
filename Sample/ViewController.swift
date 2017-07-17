@@ -32,6 +32,7 @@ class ViewController: UIappViewController {
 				//Show Alert
 			}
 		}
+        
 	}
 	override func viewWillAppear(_ animated: Bool) {
 	}
