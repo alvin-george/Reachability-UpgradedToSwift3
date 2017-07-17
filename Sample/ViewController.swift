@@ -35,7 +35,13 @@ class ViewController: UIappViewController {
         
 	}
 	override func viewWillAppear(_ animated: Bool) {
+        
 	}
+    override func reachabilityStatusChangeHandler(_ reachability: Reachability) {
+        
+        print(reachability.isReachable())
+        
+    }
 	override func didReceiveMemoryWarning() {
 	}
 }

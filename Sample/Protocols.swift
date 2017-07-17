@@ -5,6 +5,7 @@
 //
 
 import Foundation
+
 @objc protocol AppManagerDelegate:NSObjectProtocol {
 
 	func reachabilityStatusChangeHandler(_ reachability:Reachability)
